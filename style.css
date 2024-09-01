@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+.youngserif {
+  font-family: "Young Serif", serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+section {
+  margin: 1rem 0;
+}
+
+.header img {
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.header .main_title {
+  margin: 1rem 0;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #353535;
+  letter-spacing: 7px;
+}
+
+.header .description {
+  margin: 1rem 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #696969;
+  line-height: 2.5rem;
+}
+
+.preparation {
+  padding: 2rem 4rem;
+  background-color: #fafafa;
+  border-radius: 1rem;
+}
+
+.preparation .section_title {
+  margin: 1rem 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #8d1078;
+}
+
+ul li,
+ol li {
+  margin: 1rem 0 2rem 2rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  font-family: "Young Serif", serif;
+  font-weight: 200;
+}
+ol li::marker {
+  color: #be0f43;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.prefix {
+  font-family: "Outfit", serif;
+  font-weight: 800;
+  padding-right: 10px;
+  text-transform: capitalize;
+  font-size: large;
+}
+
+.ingredients,
+.instructions,
+.nutrition {
+  margin-top: 2rem;
+}
+
+.ingredients .title,
+.instructions .title,
+.nutrition .title {
+  text-transform: capitalize;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #be0f43;
+}
+hr {
+  margin: 2rem 0;
+  border: 1px solid #e0e0e0;
+}
+
+.nutrition .description {
+  margin: 1rem 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #696969;
+  line-height: 2.5rem;
+}
+
+table {
+  width: 100%;
+}
+
+table td {
+  padding: 1rem 2rem 2rem 2rem;
+  font-size: 1.5rem;
+  border-bottom: #e0e0e0 1px solid;
+}
+
+table td:last-child {
+  color: #be0f43;
+}
+
+.no_border {
+  border: none;
+}
